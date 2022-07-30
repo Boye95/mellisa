@@ -1,8 +1,12 @@
 // Font variables
-$Poppins: 'Poppins';
-$Romanesco: 'Romanesco';
+$Poppins: 'Poppins', sans-serif;
+$Romanesco: 'Romanesco', cursive;
 
 // Color variables
+$BackgroundColor: #494A4C;
 $white: #FFFFFF;
 $peachdark: #F4C69C;
 $peachlight: #F5C79D;
+
+// Transition speeds
+$TransitionSpeed: all 400ms ease;

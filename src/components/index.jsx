@@ -1,0 +1,10 @@
+export { default as Best } from './Best/Best';
+export { default as Discount } from './Discount/Discount';
+export { default as Footer } from './Footer/Footer';
+export { default as Glow } from './Glow/Glow';
+export { default as Hero } from './Hero/Hero';
+export { default as Nav } from './Nav/Nav';
+export { default as Products } from './Products/Products';
+export { default as Review } from './Review/Review';
+export { default as Skin } from './Skin/Skin';
+export { default as Toner } from './Toner/Toner';
