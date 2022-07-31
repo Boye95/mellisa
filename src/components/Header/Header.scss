@@ -1,0 +1,22 @@
+@import '../../variables';
+
+.container.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 4rem;
+
+    .logo {
+        font-family: $Romanesco;
+        font-size: 2.5rem;
+        -webkit-text-stroke: 0.6px black;
+        color: $peachdark;
+    }
+
+    .nav__links {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

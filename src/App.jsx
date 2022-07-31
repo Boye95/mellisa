@@ -1,14 +1,11 @@
 
-
-import { Best, Discount, Footer, Glow, Hero, Nav, Products, Review, Skin, Toner } from './components';
-
+import { Best, Discount, Footer, Glow, Header, Hero, Products, Review, Skin, Toner } from './components';
 
 function App() {
 
   return (
     <>
-      <div>dhdhh</div>
-      <Nav />
+      <Header />
       <Hero />
       <Best />
       <Toner />

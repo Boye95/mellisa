@@ -22,3 +22,8 @@ body {
     color: $white;
     background-color: $BackgroundColor;
 }
+
+.container {
+    width: $Desktop;
+    margin: 0 auto;
+}
