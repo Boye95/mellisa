@@ -1,7 +1,7 @@
 import './Products.scss'
 
 const Products = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

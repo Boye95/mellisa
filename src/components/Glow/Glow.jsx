@@ -1,7 +1,7 @@
 import './Glow.scss'
 
 const Glow = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

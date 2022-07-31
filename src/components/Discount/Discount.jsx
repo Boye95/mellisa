@@ -1,7 +1,7 @@
 import './Discount.scss'
 
 const Discount = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

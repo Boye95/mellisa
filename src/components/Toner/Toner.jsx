@@ -1,7 +1,7 @@
 import './Toner.scss'
 
 const Toner = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

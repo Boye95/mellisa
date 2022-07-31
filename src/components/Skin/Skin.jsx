@@ -1,7 +1,7 @@
 import './Skin.scss'
 
 const Skin = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

@@ -1,7 +1,7 @@
 import './Review.scss'
 
 const Review = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

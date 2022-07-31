@@ -1,7 +1,7 @@
 import './Best.scss'
 
 const Best = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

@@ -1,7 +1,7 @@
 import './Nav.scss'
 
 const Nav = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

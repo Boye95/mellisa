@@ -1,11 +1,13 @@
-import React from "react";
+
+
 import { Best, Discount, Footer, Glow, Hero, Nav, Products, Review, Skin, Toner } from './components';
+
 
 function App() {
 
   return (
     <>
-      <div>dhdhhh</div>
+      <div>dhdhh</div>
       <Nav />
       <Hero />
       <Best />
@@ -17,7 +19,7 @@ function App() {
       <Skin />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

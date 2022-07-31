@@ -1,7 +1,7 @@
 import './Footer.scss'
 
 const Footer = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>

@@ -1,7 +1,7 @@
 import './Hero.scss'
 
 const Hero = () => {
-    render(
+    return(
         <section>
             wdwgd
         </section>
