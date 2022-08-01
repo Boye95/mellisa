@@ -12,11 +12,38 @@
         font-size: 2.5rem;
         -webkit-text-stroke: 0.6px black;
         color: $peachdark;
+        width: 50%;
     }
 
     .nav__links {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        width: 50%;
+
+        .link {
+            color: $white;
+            font-size: 0.9rem;
+
+            &:hover {
+                color: $peachlight;
+            }
+        }
+
+        .sign {
+            background: $peachlight;
+            color: black;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            margin-left: 1.5rem;
+            transition: $TransitionSpeed;
+
+            &:hover {
+                background: $peachdark;
+                color: $white;
+            }
+        }
     }
 }
 
