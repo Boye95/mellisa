@@ -2,7 +2,7 @@ import './Best.scss'
 
 const Best = () => {
     return(
-        <section>
+        <section className='container'>
             wdwgd
         </section>
     )
