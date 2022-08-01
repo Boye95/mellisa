@@ -1,4 +1,7 @@
 import './Best.scss'
+import Best1 from '../../assets/bestsellers/1.png'
+import Best2 from '../../assets/bestsellers/2.png'
+import Best3 from '../../assets/bestsellers/3.png'
 
 const Best = () => {
   return (
@@ -6,32 +9,34 @@ const Best = () => {
       <div className='best__header'>
         <h1>BEST SELLERS</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy tex
-          Ipsum.
+          Lorem Ipsum is simply dummy text of the printing <br /> and
+          typesetting industry. Lorem Ipsum has been
+          <br /> the industry's standard dummy tex Ipsum.
         </p>
       </div>
-      <div className='best__products'>
-        <div className='best__product'>
-            <img src='' alt='' />
+      <div className='best__content'>
+        <div className='best__products'>
+          <div className='best__product'>
+            <img src={Best1} alt='' />
             <div className='name__tag'>
-                <h2>ORIMORE</h2>
-                <p>$40</p>
+              <h2>ORIMORE</h2>
+              <p>$40</p>
             </div>
-        </div>
-        <div className='best__product'>
-            <img src='' alt='' />
+          </div>
+          <div className='best__product'>
+            <img src={Best2} alt='' />
             <div className='name__tag'>
-                <h2>ORIMORE</h2>
-                <p>$40</p>
+              <h2>ORIMORE</h2>
+              <p>$40</p>
             </div>
-        </div>
-        <div className='best__product'>
-            <img src='' alt='' />
+          </div>
+          <div className='best__product'>
+            <img src={Best3} alt='' />
             <div className='name__tag'>
-                <h2>ORIMORE</h2>
-                <p>$40</p>
+              <h2>ORIMORE</h2>
+              <p>$40</p>
             </div>
+          </div>
         </div>
       </div>
     </section>
