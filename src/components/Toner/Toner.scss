@@ -6,46 +6,35 @@
         text-align: center;
         font-weight: 300;
         font-size: 2.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .toner__content {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
 
         .toner__words {
             display: flex;
             flex-direction: column;
-            gap: 6.8rem;
+            gap: 6.5rem;
             font-weight: 300;
             font-size: 0.9rem;
         }
 
         .toner__image {
-            position: relative;
-            width: 20rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             
-            img {
-                width: 20rem;
-                height: auto;
+            .toneI {
+                width: auto;
+                height: 19rem;
             }
 
-            &:before {
-                content: url('../../assets/toner/toner1.png');
-                display: block;
-                position: absolute;
-                left: -6.5rem;
-                top: 4rem;
-                height: 3rem;
-            }
-
-            &:after {
-                content: url('../../assets/toner/toner2.png');
-                display: block;
-                position: absolute;
-                right: -6.5rem;
-                bottom: 4rem;
+            .toneImg {
+                width: 23rem;
+                height: 25rem;
             }
         }
     }

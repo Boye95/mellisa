@@ -1,0 +1,36 @@
+@import '../../variables';
+
+.container.glow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+
+    .glow__img {
+        width: 25rem;
+    }
+
+    .glow__content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .glow__title {
+            font-size: 2.3rem;
+            font-weight: 300;
+            color: $white;
+            margin-bottom: 2rem;
+        }
+
+        .glow__text {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            img {
+                width: 2rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
