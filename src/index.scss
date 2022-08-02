@@ -9,6 +9,7 @@
     outline: none;
     border: none;
     text-decoration: none;
+    list-style: none;
 }
 
 html {
@@ -26,4 +27,8 @@ body {
 .container {
     width: $Desktop;
     margin: 0 auto;
+}
+
+section {
+    height: 100vh;
 }

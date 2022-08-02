@@ -1,0 +1,53 @@
+@import '../../variables';
+
+
+.container.toner {
+    .toner__header {
+        text-align: center;
+        font-weight: 300;
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .toner__content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .toner__words {
+            display: flex;
+            flex-direction: column;
+            gap: 6.8rem;
+            font-weight: 300;
+            font-size: 0.9rem;
+        }
+
+        .toner__image {
+            position: relative;
+            width: 20rem;
+            
+            img {
+                width: 20rem;
+                height: auto;
+            }
+
+            &:before {
+                content: url('../../assets/toner/toner1.png');
+                display: block;
+                position: absolute;
+                left: -6.5rem;
+                top: 4rem;
+                height: 3rem;
+            }
+
+            &:after {
+                content: url('../../assets/toner/toner2.png');
+                display: block;
+                position: absolute;
+                right: -6.5rem;
+                bottom: 4rem;
+            }
+        }
+    }
+
+}
