@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.container.discount {
+    height: 100vh;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+
+    .discountbox {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+        .discounts__image {
+            width: 60%;
+            img {
+                width: 140%;
+            }
+        }
+    }
+}
