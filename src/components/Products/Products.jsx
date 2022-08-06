@@ -6,7 +6,7 @@ import product4 from '../../assets/products/4.png'
 import product5 from '../../assets/products/5.png'
 import product6 from '../../assets/products/6.png'
 
-const data = [
+const data1 = [
   {
     prodImg: product1,
     name: 'CLAYMORE',
@@ -21,7 +21,10 @@ const data = [
     prodImg: product3,
     name: 'MAYMORE',
     price: '$50'
-  },
+  }
+]
+
+const data2 = [
   {
     prodImg: product4,
     name: 'SAYMORE',
@@ -38,12 +41,28 @@ const data = [
     price: '$50'
   }
 ]
+
 const Products = () => {
   return (
     <section className='container products'>
       <h3 className='products__header'>OUR PRODUCTS</h3>
       <div className='products__box'>
-        {data.map(({ prodImg, name, price }, index) => {
+        {data1.map(({ prodImg, name, price }, index) => {
+          return (
+            <div className='products__product' key={index}>
+              <div className='products__image'>
+                <img src={prodImg} alt='product' />
+              </div>
+              <div className='products__info'>
+                <h5 className='products__name'>{name}</h5>
+                <p className='products__price'>{price}</p>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+      <div className='products__box'>
+        {data2.map(({ prodImg, name, price }, index) => {
           return (
             <div className='products__product' key={index}>
               <div className='products__image'>

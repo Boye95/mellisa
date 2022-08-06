@@ -21,6 +21,7 @@
         .products__product {
             text-align: center;
             color: $white;
+            font-weight: 400;
 
             .products__image {
                 img {
@@ -30,15 +31,20 @@
 
                     &:hover {
                         box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.15);
-                        transform: scale(1.1);
+                        transform: scale(1.05);
                     }
                 }
             }
-            .products__name {
-                font-size: 0.9rem;
-            }
-            .products__price {
-                font-size: 0.8rem;
+
+            .products__info {
+                .products__name {
+                    margin-top: 0.5rem;
+                    font-size: 1.3rem;
+                    font-weight: 400;
+                }
+                .products__price {
+                    font-size: 0.95rem;
+                }
             }
         }
     }
