@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.container.skin {
+    margin-top: 5rem;
+
+    .skin__header {
+        text-align: center;
+        margin-bottom: 2rem;
+
+        h1 {
+            font-weight: 400;
+            font-size: 2.2rem;
+        }
+    }
+
+    .skin__reel {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
