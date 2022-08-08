@@ -6,9 +6,7 @@ const Discount = () => {
   return (
     <section className='container discount'>
       <div className='discountbox box1'>
-        <div className='discounts__image'>
-          <img src={discount1} alt='discount' />
-        </div>
+        <img src={discount1} alt='discount' className='discounts__image' />
         <div className='discounts__info'>
           <h5 className='discount__header'>GET 20% DISCOUNT OFF COMBO PACK</h5>
           <p className='discount__text'>
@@ -20,9 +18,6 @@ const Discount = () => {
         </div>
       </div>
       <div className='discountbox box2'>
-        <div className='discounts__image'>
-          <img src={discount2} alt='discount' />
-        </div>
         <div className='discounts__info'>
           <h5 className='discount__header'>GET 20% DISCOUNT OFF COMBO PACK</h5>
           <p className='discount__text'>
@@ -32,6 +27,7 @@ const Discount = () => {
           </p>
           <button>Buy Now</button>
         </div>
+        <img src={discount2} alt='discount' className='discounts__image' />
       </div>
     </section>
   )

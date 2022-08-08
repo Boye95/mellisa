@@ -2,19 +2,37 @@
 
 .container.discount {
     height: 100vh;
+    width: 70vw;
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
+    gap: 5rem;
 
-    .discountbox {
+    .box1, .box2 {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
 
         .discounts__image {
             width: 60%;
-            img {
-                width: 140%;
+        }
+
+        .discounts__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1.7rem;
+            width: 30%;
+
+            .discount__header {
+                font-size: 2rem;
+                font-weight: 400;
+            }
+
+            .discount__text {
+                opacity: 0.8;
+                font-size: 0.9rem;
             }
         }
     }
