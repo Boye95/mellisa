@@ -29,3 +29,24 @@
         margin-top: 14rem;
     }
 }
+
+// MEDIUM SCREEN
+@media screen and (max-width: 1024px) {
+    .container.skin {
+        margin-top: 5rem;
+    
+        .skin__header {
+    
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    
+        .skin__reel {
+            .skins {
+                width: 10rem;
+            }
+        }
+
+    }
+}
