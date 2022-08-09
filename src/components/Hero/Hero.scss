@@ -7,7 +7,7 @@
 
     .hero__content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         width: $Desktop;
         height: 100%;
@@ -56,6 +56,17 @@
                 margin-left: -2.8rem;
                 margin-bottom: -0.44rem;
             }
+        }
+    }
+}
+
+// MEDIA QUERIES FOR RESPONSIVE DESIGN
+
+// LARGE DESKTOP
+@media screen and (max-width: 1280px) {
+    .container.hero {
+        .hero__content {
+            width: $Tablet;
         }
     }
 }

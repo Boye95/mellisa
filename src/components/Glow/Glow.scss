@@ -50,3 +50,13 @@
         // }
     }
 }
+
+// MEDIA QUERIES FOR RESPONSIVE DESIGN
+
+// LARGE DESKTOP
+@media screen and (max-width: 1280px) {
+    .container.glow {
+        justify-content: space-around;
+        width: $Tablet;
+    }
+}
