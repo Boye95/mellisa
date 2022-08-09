@@ -29,32 +29,35 @@ const Footer = () => {
           </a>
         </p>
       </div>
-
+<div className='line'></div>
       <div className='footer__links'>
-        <div className='about'>
+        <div className='links about'>
           <h3>About</h3>
           <a href='#'>Awards</a>
           <a href='#'>Our Team</a>
           <a href='#'>Products</a>
         </div>
 
-        <div className='company'>
+        <div className='links company'>
           <h3>Company</h3>
           <a href='#'>Our Services</a>
           <a href='#'>Contact</a>
           <a href='#'>Products</a>
         </div>
 
-        <div className='resources'>
+        <div className='links resources'>
           <h3>Resources</h3>
           <a href='#'>Blogs</a>
           <a href='#'>Newsletter</a>
           <a href='#'>Privacy Policy</a>
         </div>
 
-        <div className='subscribe'>
+        <div className='links subscribe'>
           <input type='email' name='email' placeholder='Enter Email' />
-          <p>Subscribe to news letter for exciting discounts</p>
+          <p>
+            Subscribe to news letter for <br />
+            exciting discounts
+          </p>
         </div>
       </div>
     </section>
