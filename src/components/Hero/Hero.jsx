@@ -7,19 +7,25 @@ const Hero = () => {
       <div className='hero__content'>
         <div className='hero__words'>
           <h1 className='hero__header'>
-            BEAUTY BEYOND <br /> YOUR IMAGINATION
+            <span>BEAUTY BEYOND </span>
+            <span>YOUR IMAGINATION</span>
           </h1>
           <p className='hero__text'>
-            Lorem Ipsum is simply dummy text of the printing <br />
-            and typesetting industry. L industry's standard <br />
-            dummy text ever since the 1500s, when an <br />
-            unknown printer took a galley of type and <br />
-            scrambled it to including versions of Lorem <br />
-            Ipsum.
+            <span>Lorem Ipsum is simply dummy text of the printing </span>
+            <span>and typesetting industry. L industry's standard </span>
+            <span>dummy text ever since the 1500s, when an </span>
+            <span>unknown printer took a galley of type and </span>
+            <span>scrambled it to including versions of Lorem </span>
+            <span>Ipsum.</span>
           </p>
-          <a href='#' className='hero__button'>
-            View all Products
-          </a>
+          <div className='hero__buttons'>
+            <a href='#' className='hero__button'>
+              View all Products
+            </a>
+            <a href='#' className='hero__button'>
+              Sign Up
+            </a>
+          </div>
         </div>
         <div className='hero__image'>
           <img src={hero} alt='hero' />
