@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // padding: 0 2rem;
     height: 10vh;
 
     .logo {
@@ -47,3 +46,11 @@
     }
 }
 
+// MEDIA QUERIES FOR RESPONSIVE DESIGN
+
+// TABLET DESKTOP
+@media screen and (max-width: 900px) {
+    .container.nav {
+        width: 90vw;
+    }
+}

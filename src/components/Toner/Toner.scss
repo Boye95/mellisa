@@ -1,42 +1,70 @@
-@import '../../variables';
-
+@import "../../variables";
 
 .container.toner {
+  .toner__header {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .toner__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .toner__words {
+      display: flex;
+      flex-direction: column;
+      gap: 6.5rem;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+
+    .toner__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .toneI {
+        width: auto;
+        height: 19rem;
+      }
+
+      .toneImg {
+        width: 23rem;
+        height: 25rem;
+      }
+    }
+  }
+}
+// MEDIA QUERIES FOR RESPONSIVE DESIGN
+
+// MEDIUM SCREEN
+@media screen and (max-width: 1024px) {
+  .container.toner {
     .toner__header {
-        text-align: center;
-        font-weight: 300;
-        font-size: 2.5rem;
-        margin-bottom: 2rem;
+      font-size: 2rem;
     }
 
     .toner__content {
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
-        .toner__words {
-            display: flex;
-            flex-direction: column;
-            gap: 6.5rem;
-            font-weight: 300;
-            font-size: 0.9rem;
+      .toner__words {
+        font-size: 0.8rem;
+        gap: 5.9rem;
+      }
+
+      .toner__image {
+
+        .toneI {
+          height: 17rem;
         }
 
-        .toner__image {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            .toneI {
-                width: auto;
-                height: 19rem;
-            }
-
-            .toneImg {
-                width: 23rem;
-                height: 25rem;
-            }
+        .toneImg {
+          width: 20rem;
+          height: 22rem;
         }
+      }
     }
-
+  }
 }

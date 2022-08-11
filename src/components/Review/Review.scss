@@ -105,3 +105,63 @@
         height: 3rem;
     }
 }
+
+// MEDIA QUERIES FOR RESPONSIVE DESIGN
+
+// MEDIUM SCREEN
+@media screen and (max-width: 1024px) {
+    .container.review {
+        margin-top: 5rem;
+        height: 27rem;
+        overflow: hidden;
+    
+        .review__header {
+            font-size: 1.5rem;
+        }
+        .swiper__qoute {
+            width: 60%;
+    
+            .swiper__box {
+                padding-bottom: 4rem;
+        
+                .review__reviews {
+                    margin-top: 3rem;
+                    height: 11rem;
+                    padding: 2rem;
+        
+                    .review__image {
+                        img {
+                            width: 4rem;
+                            height: 4rem;
+                        }
+                    }
+                }
+            }
+        
+            &:before {
+                top: 1.2rem;
+                left: -4rem;
+                transform: scale(0.8);
+            }
+    
+            &:after {
+                bottom: 1.5rem;
+                right: -3.8rem;
+                transform: scale(0.8);
+            }
+        }
+        
+    
+        &:before {
+            top: -1.9rem;
+            left: -0.6rem;
+            transform: scale(0.9);
+        }
+    
+        &:after {
+            bottom: 4.5rem;
+            right: 7.2rem;
+            transform: scale(0.9);
+        }
+    }
+}

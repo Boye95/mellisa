@@ -1,48 +1,78 @@
-@import '../../variables';
+@import "../../variables";
 
 .container.discount {
-    height: 100vh;
-    width: 70vw;
-    margin-top: 10rem;
+  height: 100vh;
+  width: 70vw;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  .box1,
+  .box2 {
     display: flex;
-    flex-direction: column;
-    gap: 5rem;
+    justify-content: space-between;
+    width: 100%;
 
-    .box1, .box2 {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-
-        .discounts__image {
-            width: 60%;
-        }
-
-        .discounts__info {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 1.7rem;
-            width: 30%;
-
-            .discount__header {
-                font-size: 2rem;
-                font-weight: 400;
-            }
-
-            .discount__text {
-                opacity: 0.8;
-                font-size: 0.9rem;
-            }
-        }
+    .discounts__image {
+      width: 60%;
     }
+
+    .discounts__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 1.7rem;
+      width: 30%;
+
+      .discount__header {
+        font-size: 2rem;
+        font-weight: 400;
+      }
+
+      .discount__text {
+        opacity: 0.8;
+        font-size: 0.9rem;
+      }
+    }
+  }
 }
 
 // MEDIA QUERIES FOR RESPONSIVE DESIGN
 
 // LARGE DESKTOP
 @media screen and (max-width: 1280px) {
-    .container.discount {
-        width: $Tablet;
+  .container.discount {
+    width: $Tablet;
+  }
+}
+
+// MEDIUM SCREEN
+@media screen and (max-width: 1024px) {
+  .container.discount {
+    width: $Tablet;
+    margin-top: 5rem;
+    gap: 5rem;
+
+    .box1,
+    .box2 {
+
+      .discounts__image {
+        width: 55%;
+      }
+
+      .discounts__info {
+        width: 40%;
+
+        .discount__header {
+          font-size: 1.7rem;
+        }
+
+        .discount__text {
+          font-size: 0.8rem;
+        }
+      }
     }
+  }
 }

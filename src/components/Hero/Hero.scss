@@ -70,3 +70,40 @@
         }
     }
 }
+
+// MEDIUM SCREEN
+@media screen and (max-width: 1024px) {
+    .container.hero {
+    
+        .hero__content {
+    
+            .hero__words {
+                width: 40%;
+    
+                .hero__header {
+                    font-size: 2rem;
+                }
+    
+                .hero__text {
+                    font-size: 0.9rem;
+                }
+    
+                .hero__button {
+                    width: 11rem;
+                    padding: 0.5rem 0.5rem;
+                }
+            }
+    
+            .hero__image {
+                width: 60%;
+    
+                img {
+                    width: 39rem;
+                    margin-left: -2rem;
+                    margin-bottom: -0.44rem;
+                }
+            }
+        }
+
+    }
+  }

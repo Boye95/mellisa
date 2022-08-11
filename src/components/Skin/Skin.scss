@@ -19,7 +19,6 @@
     }
 
 }
-
 // MEDIA QUERIES FOR RESPONSIVE DESIGN
 
 // LARGE DESKTOP
@@ -33,7 +32,7 @@
 // MEDIUM SCREEN
 @media screen and (max-width: 1024px) {
     .container.skin {
-        margin-top: 5rem;
+        margin-top: 1rem;
     
         .skin__header {
     
@@ -50,3 +49,4 @@
 
     }
 }
+
