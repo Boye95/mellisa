@@ -76,3 +76,30 @@
     }
   }
 }
+
+// TABLET SCREEN
+@media screen and (max-width: 900px) {
+  .container.discount {
+    height: auto;
+
+    .box1,
+    .box2 {
+
+      .discounts__image {
+        width: 55%;
+      }
+
+      .discounts__info {
+        width: 40%;
+
+        .discount__header {
+          font-size: 1.7rem;
+        }
+
+        .discount__text {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
