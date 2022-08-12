@@ -30,21 +30,28 @@ const Header = () => {
       </div>
 
       <div className='ham__container'>
-        <img src={x} alt="xx" />
-      <a href='#' className='link'>
+        <div className='x'>
+          <img src={x} alt='xx' />
+        </div>
+        <a href='#' className='link'>
           Home
+          <img src={arrow} alt="arrow" />
         </a>
         <a href='#' className='link'>
           About Us
+          <img src={arrow} alt="arrow" />
         </a>
         <a href='#' className='link'>
           How it works
+          <img src={arrow} alt="arrow" />
         </a>
         <a href='#' className='link'>
           Login
+          <img src={arrow} alt="arrow" />
         </a>
         <a href='#' className='link sign'>
           Sign Up
+          <img src={arrow} alt="arrow" />
         </a>
       </div>
     </header>
