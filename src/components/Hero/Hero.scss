@@ -58,6 +58,10 @@
             color: $peachdark;
           }
         }
+
+        .two {
+          display: none;
+        }
       }
     }
 
@@ -157,9 +161,15 @@
           }
         }
 
-        .hero__button {
-          width: 11rem;
-          padding: 0.5rem 0.5rem;
+        .hero__buttons {
+          .hero__button {
+            width: 11rem;
+            padding: 0.5rem 0.5rem;
+          }
+
+          .two {
+            display: inline;
+          }
         }
       }
 
