@@ -46,4 +46,12 @@
   }
 }
 
+// TABLET DESKTOP
+@media screen and (max-width: 1280px) {
+  .container.glow {
+    flex-direction: column;
+    gap: 3rem;;
+  }
+}
+
 

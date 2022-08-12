@@ -165,3 +165,11 @@
         }
     }
 }
+
+
+// MEDIUM SCREEN
+@media screen and (max-width: 1024px) {
+    .container.review {
+        border-radius: 0.7rem;
+    }
+}
