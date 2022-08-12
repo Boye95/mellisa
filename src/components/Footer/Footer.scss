@@ -13,7 +13,7 @@
     width: 85%;
     margin: 0 auto;
 
-    p {
+    .contact {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -105,7 +105,7 @@
       padding: 1.5rem;
       width: 95%;
   
-      p {
+      .contact {
         gap: 0.5rem;
       }
     }

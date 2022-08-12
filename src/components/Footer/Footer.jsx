@@ -8,26 +8,26 @@ const Footer = () => {
   return (
     <section className='container footer'>
       <div className='footer__contact'>
-        <p>
-          <div className='image'>
+        <div className='contact'>
+          <p className='image'>
             <img src={phone} alt='phone' />
-          </div>
+          </p>
           <a href='tel:+44799992972282'>+447 9999 2972 282</a>
-        </p>
-        <p>
-          <div className='image'>
+        </div>
+        <div className='contact'>
+          <p className='image'>
             <img src={mail} alt='mail' />
-          </div>
+          </p>
           <a href='mailto:himellisa@gmail.com'>himellisa@gmail.com</a>
-        </p>
-        <p>
-          <div className='image'>
+        </div>
+        <div className='contact'>
+          <p className='image'>
             <img src={location} alt='location' />
-          </div>
+          </p>
           <a href='https://goo.gl/maps/sNBSdp3GQHPJm38Z7'>
             38a Lucas way,England
           </a>
-        </p>
+        </div>
       </div>
 <div className='line'></div>
       <div className='footer__links'>
