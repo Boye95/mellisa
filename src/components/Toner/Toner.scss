@@ -19,6 +19,10 @@
       gap: 6.5rem;
       font-weight: 300;
       font-size: 0.9rem;
+
+      span {
+        display: block;
+      }
     }
 
     .toner__image {
@@ -48,14 +52,12 @@
     }
 
     .toner__content {
-
       .toner__words {
         font-size: 0.8rem;
         gap: 5.9rem;
       }
 
       .toner__image {
-
         .toneI {
           height: 17rem;
         }
@@ -63,6 +65,40 @@
         .toneImg {
           width: 20rem;
           height: 22rem;
+        }
+      }
+    }
+  }
+}
+
+// TABLET SCREEN
+@media screen and (max-width: 900px) {
+  .container.toner {
+    .toner__header {
+      font-size: 2rem;
+    }
+
+    .toner__content {
+      .toner__words {
+        font-size: 0.8rem;
+        gap: 4.8rem;
+      }
+
+      .wordone {
+        display: none;
+      }
+
+      .toner__image {
+        .toneI {
+          height: 15rem;
+        }
+
+        .one {
+          display: none;
+        }
+        .toneImg {
+          width: 17rem;
+          height: 21rem;
         }
       }
     }

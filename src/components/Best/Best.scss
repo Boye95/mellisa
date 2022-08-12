@@ -16,6 +16,10 @@
       width: 50%;
       margin: 0 auto;
       font-size: 0.96rem;
+
+      span {
+        display: block;
+      }
     }
   }
 
@@ -110,6 +114,64 @@
 
       &:after {
         height: 6rem;
+      }
+    }
+  }
+}
+
+
+// TABLET SCREEN
+@media screen and (max-width: 900px) {
+  .container.best {
+    height: auto;
+
+    .best__header {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+        width: 60%;
+
+        span {
+          display: inline;
+        }
+      }
+    }
+
+    .best__content {
+      .best__products {
+        flex-direction: column;
+        gap: 2rem;
+
+        .best__product {
+          text-align: center;
+
+          img {
+            width: 40%;
+          }
+
+          .name__tag {
+            color: $white;
+
+            h2 {
+              font-size: 1.1rem;
+            }
+          }
+        }
+      }
+
+      &:before {
+        height: 4rem;
+        width: 60%;
+        margin: 0 auto;
+      }
+
+      &:after {
+        height: 6rem;
+        width: 60%;
+        margin: 0 auto;
       }
     }
   }

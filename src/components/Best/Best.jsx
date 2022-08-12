@@ -9,9 +9,9 @@ const Best = () => {
       <div className='best__header'>
         <h1>BEST SELLERS</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing <br /> and
-          typesetting industry. Lorem Ipsum has been
-          <br /> the industry's standard dummy tex Ipsum.
+          <span>Lorem Ipsum is simply dummy text of the printing </span>
+          <span>and typesetting industry. Lorem Ipsum has been </span>
+          <span>the industry's standard dummy tex Ipsum.</span>
         </p>
       </div>
       <div className='best__content'>
