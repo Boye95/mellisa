@@ -83,7 +83,6 @@
     height: 80vh;
 
     .best__header {
-
       p {
         font-size: 0.9rem;
       }
@@ -91,7 +90,6 @@
 
     .best__content {
       .best__products {
-
         .best__product {
           text-align: center;
 
@@ -100,7 +98,6 @@
           }
 
           .name__tag {
-
             h2 {
               font-size: 1.1rem;
             }
@@ -118,7 +115,6 @@
     }
   }
 }
-
 
 // TABLET SCREEN
 @media screen and (max-width: 900px) {
@@ -172,6 +168,40 @@
         height: 6rem;
         width: 60%;
         margin: 0 auto;
+      }
+    }
+  }
+}
+
+// MOBILE SCREEN
+@media screen and (max-width: 600px) {
+  .container.best {
+    height: auto;
+
+    .best__header {
+      p {
+        width: 90%;
+      }
+    }
+
+    .best__content {
+      .best__products {
+        gap: 1rem;
+
+        .best__product {
+          img {
+            width: 60%;
+          }
+        }
+      }
+
+      &:before {
+        width: 80%;
+      }
+
+      &:after {
+        height: 5.5rem;
+        width: 80%;
       }
     }
   }
