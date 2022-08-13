@@ -129,6 +129,7 @@
     }
   }
 }
+
 // TABLET SCREEN
 @media screen and (max-width: 900px) {
   .container.hero {
@@ -180,6 +181,38 @@
           width: 30rem;
           height: 15rem;
           margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+// MOBILE SCREEN
+@media screen and (max-width: 600px) {
+  .container.hero {
+    height: auto;
+    padding-top: 1rem;
+
+    .hero__content {
+
+      .hero__words {
+        width: 100%;
+
+        .hero__header {
+          font-size: 1.3rem;
+        }
+
+        .hero__text {
+          font-size: 0.8rem;
+        }
+      }
+
+      .hero__image {
+        width: 60%;
+
+        img {
+          width: 15rem;
+          height: 10rem;
         }
       }
     }
