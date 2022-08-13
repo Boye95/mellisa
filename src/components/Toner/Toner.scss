@@ -104,3 +104,33 @@
     }
   }
 }
+
+// MOBILE SCREEN
+@media screen and (max-width: 600px) {
+  .container.toner {
+    .toner__header {
+      font-size: 1.7rem;
+    }
+
+    .toner__content {
+      .toner__words {
+        font-size: 0.8rem;
+        gap: 1.8rem;
+      }
+
+      .toner__image {
+        .toneI {
+          height: 10rem;
+        }
+
+        .one {
+          display: none;
+        }
+        .toneImg {
+          width: 12rem;
+          height: 16em;
+        }
+      }
+    }
+  }
+}
