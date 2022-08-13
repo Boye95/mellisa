@@ -48,4 +48,23 @@
             }
         }
     }
+
+    .mobile__product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4rem;
+
+        .product__product {
+            color: $white;
+            font-weight: 400;
+
+            .products__image {
+                img {
+                    width: 15rem;
+                    height: 15rem;
+                }
+            }
+        }
+    }
 }

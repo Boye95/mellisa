@@ -6,6 +6,7 @@ import product4 from '../../assets/products/4.png'
 import product5 from '../../assets/products/5.png'
 import product6 from '../../assets/products/6.png'
 import MobileProducts from './MobileProducts'
+import RegularProducts from './RegularProducts'
 
 const data1 = [
   {
@@ -47,37 +48,9 @@ const Products = () => {
   return (
     <section className='container products'>
       <h3 className='products__header'>OUR PRODUCTS</h3>
+      <RegularProducts data1={data1} data2={data2} />
       <MobileProducts data1={data1} data2={data2} />
-      {/* <div className='products__box'>
-        {data1.map(({ prodImg, name, price }, index) => {
-          return (
-            <div className='products__product' key={index}>
-              <div className='products__image'>
-                <img src={prodImg} alt='product' />
-              </div>
-              <div className='products__info'>
-                <h5 className='products__name'>{name}</h5>
-                <p className='products__price'>{price}</p>
-              </div>
-            </div>
-          )
-        })}
-      </div>
-      <div className='products__box'>
-        {data2.map(({ prodImg, name, price }, index) => {
-          return (
-            <div className='products__product' key={index}>
-              <div className='products__image'>
-                <img src={prodImg} alt='product' />
-              </div>
-              <div className='products__info'>
-                <h5 className='products__name'>{name}</h5>
-                <p className='products__price'>{price}</p>
-              </div>
-            </div>
-          )
-        })}
-      </div> */}
+      
     </section>
   )
 }
