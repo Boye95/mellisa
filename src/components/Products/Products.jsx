@@ -5,6 +5,7 @@ import product3 from '../../assets/products/3.png'
 import product4 from '../../assets/products/4.png'
 import product5 from '../../assets/products/5.png'
 import product6 from '../../assets/products/6.png'
+import MobileProducts from './MobileProducts'
 
 const data1 = [
   {
@@ -46,7 +47,8 @@ const Products = () => {
   return (
     <section className='container products'>
       <h3 className='products__header'>OUR PRODUCTS</h3>
-      <div className='products__box'>
+      <MobileProducts data1={data1} data2={data2} />
+      {/* <div className='products__box'>
         {data1.map(({ prodImg, name, price }, index) => {
           return (
             <div className='products__product' key={index}>
@@ -75,7 +77,7 @@ const Products = () => {
             </div>
           )
         })}
-      </div>
+      </div> */}
     </section>
   )
 }
