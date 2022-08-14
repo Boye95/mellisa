@@ -51,7 +51,6 @@
 // MEDIUM SCREEN
 @media screen and (max-width: 1024px) {
   .container.discount {
-    width: $Tablet;
     margin-top: 5rem;
     gap: 5rem;
 
@@ -85,12 +84,7 @@
     .box1,
     .box2 {
 
-      .discounts__image {
-        width: 55%;
-      }
-
       .discounts__info {
-        width: 40%;
 
         .discount__header {
           font-size: 1.7rem;
@@ -98,6 +92,42 @@
 
         .discount__text {
           font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+// MOBILE SCREEN
+@media screen and (max-width: 600px) {
+  .container.discount {
+    width: $Mobile;
+    height: auto;
+
+    .box1,
+    .box2 {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+
+      .discounts__image {
+        width: 80%;
+      }
+
+      .discounts__info {
+        width: 80%;
+
+        .discount__header {
+          font-size: 1.3rem;
+        }
+
+        .discount__text {
+          font-size: 0.8rem;
+        }
+
+        button {
+          width: 6rem;
+          padding: 0.4rem;
         }
       }
     }

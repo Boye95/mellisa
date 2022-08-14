@@ -18,6 +18,10 @@
         justify-content: space-between;
     }
 
+    .skin__reelmobile {
+        display: none;
+    }
+
 }
 // MEDIA QUERIES FOR RESPONSIVE DESIGN
 
@@ -65,6 +69,33 @@
         .skin__reel {
             .skins {
                 width: 8rem;
+            }
+        }
+
+    }
+}
+
+// MOBILE SCREEN
+@media screen and (max-width: 600px) {
+    .container.skin {
+        margin-top: 4rem;
+    
+        .skin__header {
+    
+            h1 {
+                font-size: 1.7rem;
+            }
+        }
+    
+        .skin__reel {
+            display: none;
+        }
+
+        .skin__reelmobile {
+            display: flex;
+            
+            .skins {
+                width: 7.5rem;
             }
         }
 
