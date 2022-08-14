@@ -30,7 +30,6 @@
           width: 1rem;
           height: 1rem;
         }
-
       }
 
       a {
@@ -76,14 +75,14 @@
 
     .subscribe {
       input {
-        background-color: #494A4C;
+        background-color: #494a4c;
         border-radius: 0.5rem;
         padding: 0.5rem;
         width: 18rem;
         height: 2.5rem;
         font-size: 0.9rem;
         color: $white;
-        margin-bottom: 10px;;
+        margin-bottom: 10px;
       }
 
       p {
@@ -93,10 +92,12 @@
       }
     }
   }
+  .subscribemobile {
+    display: none;
+  }
 }
 
 // MEDIA QUERIES FOR RESPONSIVE DESIGN
-
 
 // MEDIUM SCREEN
 @media screen and (max-width: 1024px) {
@@ -104,7 +105,7 @@
     .footer__contact {
       padding: 1.5rem;
       width: 95%;
-  
+
       .contact {
         gap: 0.5rem;
       }
@@ -113,22 +114,92 @@
     .footer__links {
       width: 100%;
       padding: 2.5rem;
-  
+
       .links {
-  
         h3 {
           font-size: 1.1rem;
         }
       }
-  
+
       .subscribe {
         input {
           width: 15rem;
         }
-  
+
         p {
           font-size: 0.8rem;
         }
+      }
+    }
+  }
+}
+
+// MOBILE SCREEN
+@media screen and (max-width: 700px) {
+  .container.footer {
+    width: 100%;
+
+    .footer__contact {
+      padding: 0.6rem;
+      width: 100%;
+
+      .contact {
+        gap: 0.3rem;
+
+        .image {
+          padding: 0rem;
+          width: 1.5rem;
+          height: 1.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        a {
+          font-size: 0.6rem;
+        }
+      }
+    }
+
+    .footer__links {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+
+      .links {
+        margin-bottom: 0;
+        h3 {
+          font-size: 1rem;
+        }
+        a {
+          font-size: 0.8rem;
+        }
+      }
+
+      .subscribe {
+        display: none;
+      }
+    }
+    .subscribemobile {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+
+      input {
+        background-color: #494a4c;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        width: 18rem;
+        height: 2.5rem;
+        font-size: 0.9rem;
+        color: $white;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: black;
+        font-size: 0.9rem;
+        opacity: 0.89;
       }
     }
   }

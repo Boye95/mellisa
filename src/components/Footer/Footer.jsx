@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-<div className='line'></div>
+      <div className='line'></div>
       <div className='footer__links'>
         <div className='links about'>
           <h3>About</h3>
@@ -59,6 +59,14 @@ const Footer = () => {
             exciting discounts
           </p>
         </div>
+      </div>
+
+      <div className='subscribemobile'>
+        <input type='email' name='email' placeholder='Enter Email' />
+        <p>
+          Subscribe to news letter for <br />
+          exciting discounts
+        </p>
       </div>
     </section>
   )
