@@ -16,13 +16,23 @@
     .toner__words {
       display: flex;
       flex-direction: column;
-      gap: 6.5rem;
+      gap: 6.3rem;
       font-weight: 300;
       font-size: 0.9rem;
 
       span {
         display: block;
       }
+    }
+    
+
+    .wordtwo {
+      margin-left: 1rem;
+      gap: 5.8rem;
+      .li__center {
+        margin-bottom: 1rem;
+      }
+
     }
 
     .toner__image {

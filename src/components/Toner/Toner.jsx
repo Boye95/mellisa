@@ -29,7 +29,7 @@ const Toner = () => {
             <span>Soft toner foam stimulates </span>
             <span>your face</span>
           </li>
-          <li>
+          <li className='li__center'>
             <span>Apply some our toner to your </span>
             <span>face</span>
           </li>
