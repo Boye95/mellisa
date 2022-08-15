@@ -101,8 +101,22 @@
         font-weight: 400;
 
         .products__image {
+          width: 13rem;
+          height: 14rem;
+        }
+      }
+    }
+  }
+}
+
+// SMALL MOBILE SCREEN
+@media screen and (max-width: 450px) {
+  .container.products {
+    .mobile__products {
+      .product {
+        .products__image {
           width: 10rem;
-          height: 10rem;
+          height: 11rem;
         }
       }
     }
