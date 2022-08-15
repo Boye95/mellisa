@@ -40,8 +40,6 @@
       }
 
       .hero__buttons {
-        
-        
         .hero__button {
           background: #f8c99f;
           color: black;
@@ -68,12 +66,7 @@
     .hero__image {
       width: 60%;
       align-self: flex-end;
-
-      img {
-        height: 30rem;
-        margin-left: -2.8rem;
-        margin-bottom: -0.44rem;
-      }
+      margin-left: -2.8rem;
     }
   }
 }
@@ -86,10 +79,25 @@
     .hero__content {
       width: $Tablet;
 
-      .hero__image {
-        img {
-          height: 26rem;
+      .hero__words {
+        width: 50%;
+
+        .hero__header {
+          font-size: 2rem;
         }
+
+        .hero__text {
+          font-size: 1rem;
+        }
+
+        .hero__button {
+          font-size: 0.9rem;
+          padding: 0.4rem 0.4rem;
+        }
+      }
+
+      .hero__image {
+        height: 24rem;
       }
     }
   }
@@ -98,33 +106,31 @@
 // MEDIUM SCREEN
 @media screen and (max-width: 1024px) {
   .container.hero {
+    height: 55vh;
+
     .hero__content {
       .hero__words {
         width: 40%;
 
         .hero__header {
-          font-size: 2rem;
+          font-size: 1.8rem;
         }
 
         .hero__text {
-          font-size: 0.9rem;
+          font-size: 0.8rem;
         }
 
         .hero__button {
-          width: 11rem;
-          padding: 0.5rem 0.5rem;
+          font-size: 0.8rem;
+          width: 9rem;
+          padding: 0.4rem 0.4rem;
         }
       }
 
       .hero__image {
         width: 60%;
-
-        img {
-          width: 39rem;
-          height: 25rem;
-          margin-left: -2rem;
-          margin-bottom: -0.44rem;
-        }
+        height: auto;
+        margin-left: -2rem;
       }
     }
   }
@@ -176,12 +182,9 @@
 
       .hero__image {
         width: 60%;
-
-        img {
-          width: 30rem;
-          height: 15rem;
-          margin-bottom: 0;
-        }
+        width: 30rem;
+        height: 15rem;
+        margin-bottom: 0;
       }
     }
   }
@@ -194,9 +197,8 @@
     padding-top: 1rem;
 
     .hero__content {
-
       .hero__words {
-        width: 100%;
+        width: 80%;
 
         .hero__header {
           font-size: 1.3rem;
@@ -208,12 +210,8 @@
       }
 
       .hero__image {
-        width: 60%;
-
-        img {
-          width: 15rem;
-          height: 10rem;
-        }
+        width: 80%;
+        height: 10rem;
       }
     }
   }
