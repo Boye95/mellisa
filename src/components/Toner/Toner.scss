@@ -24,7 +24,6 @@
         display: block;
       }
     }
-    
 
     .wordtwo {
       margin-left: 1rem;
@@ -32,7 +31,6 @@
       .li__center {
         margin-bottom: 1rem;
       }
-
     }
 
     .toner__image {
@@ -139,6 +137,32 @@
         .toneImg {
           width: 12rem;
           height: 16em;
+        }
+      }
+    }
+  }
+}
+
+// MOBILE SCREEN
+@media screen and (max-width: 450px) {
+  .container.toner {
+    .toner__header {
+      font-size: 1.7rem;
+    }
+
+    .toner__content {
+      .toner__words {
+        font-size: 0.6rem;
+        gap: 1.8rem;
+      }
+
+      .toner__image {
+        .toneI {
+          height: 8rem;
+        }
+        .toneImg {
+          width: 9rem;
+          height: 12rem;
         }
       }
     }
