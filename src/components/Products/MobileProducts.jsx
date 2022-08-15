@@ -5,6 +5,7 @@ import 'swiper/scss'
 import 'swiper/scss/free-mode'
 import 'swiper/scss/pagination'
 
+let checker = true;
 
 export default function MobileProducts ({ data1, data2 }) {
   return (
