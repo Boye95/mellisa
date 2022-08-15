@@ -50,7 +50,6 @@ const Products = () => {
       <h3 className='products__header'>OUR PRODUCTS</h3>
       <RegularProducts data1={data1} data2={data2} />
       <MobileProducts data1={data1} data2={data2} />
-      
     </section>
   )
 }
