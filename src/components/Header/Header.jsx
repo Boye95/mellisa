@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './Header.scss'
-import ham from '../../assets/nav/ham.png'
 import x from '../../assets/nav/x.png'
 import arrow from '../../assets/nav/arrow.png'
+import { RiMenu3Fill } from 'react-icons/ri'
 
 const Header = () => {
   // Navbar display script
