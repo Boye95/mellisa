@@ -34,7 +34,7 @@ const Header = () => {
       </nav>
 
       <div className='ham__nav'>
-        <RiMenu3Fill className='ham' onClick={handleShowMenu} />
+        <RiMenu3Fill className='ham' size={38} onClick={handleShowMenu} />
       </div>
 
       <div className={showMenu ? 'ham_container toggle' : 'ham__container'}>
