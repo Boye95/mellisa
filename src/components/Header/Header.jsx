@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState } from 'react'
 import './Header.scss'
 import ham from '../../assets/nav/ham.png'
 import x from '../../assets/nav/x.png'
@@ -8,8 +8,7 @@ const Header = () => {
   // Navbar display script
   let [showMenu, setShowMenu] = useState(false)
 
-  
-let handleShowMenu = () =>{
+  let handleShowMenu = () => {
     setShowMenu(!showMenu)
   }
 
@@ -35,10 +34,10 @@ let handleShowMenu = () =>{
       </nav>
 
       <div className='ham__nav'>
-        <img src={ham} alt='ham' className='ham' onClick={handleShowMenu} />
+        <RiMenu3Fill className='ham' onClick={handleShowMenu} />
       </div>
 
-      <div className={ showMenu ? 'ham_container toggle' : 'ham__container'}>
+      <div className={showMenu ? 'ham_container toggle' : 'ham__container'}>
         <div className='x'>
           <img src={x} alt='xx' onClick={handleShowMenu} />
         </div>
